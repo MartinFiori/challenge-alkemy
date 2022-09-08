@@ -1,0 +1,29 @@
+:root {
+	--light-green: #abd1c6;
+	--dark-green: #004643;
+	--yellow: #f9bc60;
+	--white: #fffffe;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: var(--dark-green);
+}
+
+body {
+	background: var(--light-green);
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+}
